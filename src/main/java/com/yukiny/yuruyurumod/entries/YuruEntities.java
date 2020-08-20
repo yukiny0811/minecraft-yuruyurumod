@@ -7,12 +7,8 @@ import com.yukiny.yuruyurumod.entities.EntityMySnowball;
 import com.yukiny.yuruyurumod.renders.RenderBull;
 import com.yukiny.yuruyurumod.renders.RenderExplosiveArrow;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.entity.Render;
-import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.client.renderer.entity.RenderSnowball;
-import net.minecraft.entity.projectile.EntitySnowball;
 import net.minecraft.init.Items;
-import net.minecraftforge.fml.client.registry.IRenderFactory;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.registry.EntityRegistry;
 

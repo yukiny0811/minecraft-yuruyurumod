@@ -33,6 +33,8 @@ public class YuruyuruMod
         YuruRecipes.register();
 
         YuruEntities.register();
+
+        YuruGenerators.register();
     }
     
     @EventHandler

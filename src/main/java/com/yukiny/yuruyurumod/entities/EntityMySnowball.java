@@ -5,7 +5,6 @@ package com.yukiny.yuruyurumod.entities;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockSnowBlock;
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntitySnowball;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.EnumParticleTypes;
