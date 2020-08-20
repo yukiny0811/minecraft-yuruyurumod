@@ -1,7 +1,9 @@
 package com.yukiny.yuruyurumod.generators;
 
+import com.yukiny.yuruyurumod.entries.YuruGenerators;
 import net.minecraft.block.Block;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.DimensionType;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkGenerator;
 import net.minecraft.world.chunk.IChunkProvider;
@@ -21,7 +23,7 @@ public class MyWorldGenerator implements IWorldGenerator {
 
     @Override
     public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
-        if(world.provider.getDimension() == 0){
+        if(world.provider.getDimension() == YuruGenerators.myDimension.getId()){
             generateSurface(world, random, chunkX * 16, chunkZ * 16);
         }
     }
