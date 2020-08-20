@@ -1,0 +1,23 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "yuruyurumod:blocks/myblock2/myblock_particle",
+      "down": "yuruyurumod:blocks/myblock2/myblock_down",
+      "up": "yuruyurumod:blocks/myblock2/myblock_up",
+      "east": "yuruyurumod:blocks/myblock2/myblock_east",
+      "west": "yuruyurumod:blocks/myblock2/myblock_west",
+      "north": "yuruyurumod:blocks/myblock2/myblock_north",
+      "south": "yuruyurumod:blocks/myblock2/myblock_south"
+    },
+    "model": "cube_all"
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}

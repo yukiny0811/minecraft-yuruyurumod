@@ -1,0 +1,17 @@
+tile.yuruyurumod_myblock.name=マイブロック
+tile.yuruyurumod_myblock2.name=マイブロック2
+tile.yuruyurumod_fortune_block.name=フォーチュンブロック
+tile.yuruyurumod_fortune_block_2.name=フォーチュンブロック2
+item.yuruyurumod_magic_stick.name=マジックスティック
+item.yuruyurumod_hipotion.name=ハイポーション
+tile.yuruyurumod_sound_block.name=サウンドブロック
+tile.yuruyurumod_rainbow_block.name=レインボーブロック
+item.yuruyurumod_mysword.name=マイ剣
+tile.yuruyurumod_color_block.name=カラーブロック
+tile.yuruyurumod_my_redstone_block.name=マイレッドストーンブロック
+tile.yuruyurumod_footprint_sand_block.name=足跡砂ブロック
+item.yuruyurumod_two_way_sword.name=二面剣
+item.yuruyurumod_mode_change_sword.name=モードチェンジ剣
+item.yuruyurumod_explosive_arrow.name=爆発矢
+itemGroup.Yuru=ゆるたぶ
+tile.yuruyurumod_disappear_glass_block.name=消えるガラスブロック

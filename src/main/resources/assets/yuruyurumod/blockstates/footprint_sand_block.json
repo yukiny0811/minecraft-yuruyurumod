@@ -1,0 +1,44 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "yuruyurumod:blocks/footprint_sand_block/footprint_sand_block_0"
+    },
+    "model": "cube_all"
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ],
+    "color": {
+      "0": {
+        "textures":{
+          "all": "yuruyurumod:blocks/footprint_sand_block/footprint_sand_block_0"
+        }
+      },
+      "1": {
+        "textures":{
+          "all": "yuruyurumod:blocks/footprint_sand_block/footprint_sand_block_1"
+        }
+      },
+      "2": {
+        "textures":{
+          "all": "yuruyurumod:blocks/footprint_sand_block/footprint_sand_block_2"
+        }
+      },
+      "3": {
+        "textures":{
+          "all": "yuruyurumod:blocks/footprint_sand_block/footprint_sand_block_3"
+        }
+      },
+      "4": {
+        "textures":{
+          "all": "yuruyurumod:blocks/footprint_sand_block/footprint_sand_block_4"
+        }
+      }
+    }
+  }
+}

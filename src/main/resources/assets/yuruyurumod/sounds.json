@@ -1,0 +1,29 @@
+{
+  "sound1": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "yuruyurumod:sound_block/sound1",
+        "stream": true
+      }
+    ]
+  },
+  "sound2": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "yuruyurumod:sound_block/sound2",
+        "stream": true
+      }
+    ]
+  },
+  "sound3": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "yuruyurumod:sound_block/sound3",
+        "stream": true
+      }
+    ]
+  }
+}

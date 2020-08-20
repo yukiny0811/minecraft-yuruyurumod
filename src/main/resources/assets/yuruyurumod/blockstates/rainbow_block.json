@@ -1,0 +1,58 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "yuruyurumod:blocks/rainbow_block/rainbow_block_1"
+    },
+    "model": "cube_all"
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "textures": {
+          "all": "yuruyurumod:blocks/rainbow_block/rainbow_block_1"
+        }
+      }
+    ],
+    "color": {
+      "0": {
+        "textures": {
+          "all": "yuruyurumod:blocks/rainbow_block/rainbow_block_1"
+        }
+      },
+      "1": {
+        "textures": {
+          "all": "yuruyurumod:blocks/rainbow_block/rainbow_block_2"
+        }
+      },
+      "2": {
+        "textures": {
+          "all": "yuruyurumod:blocks/rainbow_block/rainbow_block_3"
+        }
+      },
+      "3": {
+        "textures": {
+          "all": "yuruyurumod:blocks/rainbow_block/rainbow_block_4"
+        }
+      },
+      "4": {
+        "textures": {
+          "all": "yuruyurumod:blocks/rainbow_block/rainbow_block_5"
+        }
+      },
+      "5": {
+        "textures": {
+          "all": "yuruyurumod:blocks/rainbow_block/rainbow_block_6"
+        }
+      },
+      "6": {
+        "textures": {
+          "all": "yuruyurumod:blocks/rainbow_block/rainbow_block_1"
+        }
+      }
+    }
+  }
+}

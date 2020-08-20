@@ -1,0 +1,43 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "yuruyurumod:blocks/color_block/color_block_0"
+    },
+    "model": "cube_all"
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "textures": {
+          "all": "yuruyurumod:blocks/color_block/color_block_0"
+        }
+      }
+    ],
+    "state":{
+      "0": {
+        "textures": {
+          "all": "yuruyurumod:blocks/color_block/color_block_0"
+        }
+      },
+      "1": {
+        "textures": {
+          "all": "yuruyurumod:blocks/color_block/color_block_1"
+        }
+      },
+      "2": {
+        "textures": {
+          "all": "yuruyurumod:blocks/color_block/color_block_2"
+        }
+      },
+      "3": {
+        "textures": {
+          "all": "yuruyurumod:blocks/color_block/color_block_3"
+        }
+      }
+    }
+  }
+}
