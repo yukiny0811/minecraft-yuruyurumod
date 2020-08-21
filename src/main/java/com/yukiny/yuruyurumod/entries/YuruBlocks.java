@@ -22,6 +22,7 @@ public class YuruBlocks {
     public static Block footprintSandBlock = new FootprintSandBlock();
     public static Block disappearGlassBlock = new DisappearGlassBlock();
     public static Block myTeleporterBlock = new MyTeleporterBlock();
+    public static Block enchanterBlock = new EnchanterBlock();
 
     public static void register(boolean isClient){
         registerBlock(myBlock, isClient);
@@ -34,7 +35,8 @@ public class YuruBlocks {
         registerBlock(myRedstoneBlock, isClient);
         registerBlock(footprintSandBlock, isClient);
         registerBlock(disappearGlassBlock, Blocks.GLASS, isClient);
-        registerBlock(myTeleporterBlock, Blocks.PORTAL, isClient);
+        registerBlock(myTeleporterBlock, Blocks.REDSTONE_BLOCK, isClient);
+        registerBlock(enchanterBlock, Blocks.EMERALD_BLOCK, isClient);
     }
 
     private static void registerBlock(Block block, boolean isClient){
