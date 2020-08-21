@@ -11,31 +11,17 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class YuruBlocks {
 
-    public static Block myBlock;
-    public static Block myBlock2;
-    public static Block fortuneBlock;
-    public static Block fortuneBlock2;
-    public static Block soundBlock;
-    public static Block rainbowBlock;
-    public static Block colorBlock;
-    public static Block myRedstoneBlock;
-    public static Block footprintSandBlock;
-    public static Block disappearGlassBlock;
-    public static Block myTeleporterBlock;
-
-    public static void init(){
-        myBlock = new MyBlock();
-        myBlock2 = new MyBlock2();
-        fortuneBlock = new FortuneBlock();
-        fortuneBlock2 = new FortuneBlock2();
-        soundBlock = new SoundBlock();
-        rainbowBlock = new RainbowBlock();
-        colorBlock = new ColorBlock();
-        myRedstoneBlock = new MyRedstoneBlock();
-        footprintSandBlock = new FootprintSandBlock();
-        disappearGlassBlock = new DisappearGlassBlock();
-        myTeleporterBlock = new MyTeleporterBlock();
-    }
+    public static Block myBlock = new MyBlock();
+    public static Block myBlock2 = new MyBlock2();
+    public static Block fortuneBlock = new FortuneBlock();
+    public static Block fortuneBlock2 = new FortuneBlock2();
+    public static Block soundBlock = new SoundBlock();
+    public static Block rainbowBlock = new RainbowBlock();
+    public static Block colorBlock = new ColorBlock();
+    public static Block myRedstoneBlock = new MyRedstoneBlock();
+    public static Block footprintSandBlock = new FootprintSandBlock();
+    public static Block disappearGlassBlock = new DisappearGlassBlock();
+    public static Block myTeleporterBlock = new MyTeleporterBlock();
 
     public static void register(boolean isClient){
         registerBlock(myBlock, isClient);

@@ -21,13 +21,10 @@ public class YuruyuruMod
     public void preinit(FMLPreInitializationEvent event){
         boolean isClient = event.getSide().isClient();
 
-        YuruSounds.init();
         YuruSounds.register();
 
-        YuruBlocks.init();
         YuruBlocks.register(isClient);
 
-        YuruItems.init();
         YuruItems.register(isClient);
 
         YuruRecipes.register();

@@ -9,23 +9,13 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class YuruItems {
 
-    public static Item magicStick;
-    public static Item hiPotion;
-    public static Item mySword;
-    public static Item twoWaySword;
-    public static Item explosiveArrow;
-    public static Item modeChangeSword;
-    public static Item mySnowball;
-
-    public static void init(){
-        magicStick = new MagicStick();
-        hiPotion = new HiPotion();
-        mySword = new MySword();
-        twoWaySword = new TwoWaySword();
-        explosiveArrow = new ExplosiveArrow();
-        modeChangeSword = new ModeChangeSword();
-        mySnowball = new MySnowball();
-    }
+    public static Item magicStick = new MagicStick();
+    public static Item hiPotion = new HiPotion();
+    public static Item mySword = new MySword();
+    public static Item twoWaySword = new TwoWaySword();
+    public static Item explosiveArrow = new ExplosiveArrow();
+    public static Item modeChangeSword = new ModeChangeSword();
+    public static Item mySnowball = new MySnowball();
 
     public static void register(boolean isClient){
         registerItem(magicStick, isClient);

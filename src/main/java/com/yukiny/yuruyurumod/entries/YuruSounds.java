@@ -7,15 +7,9 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class YuruSounds {
 
-    public static SoundEvent sound1;
-    public static SoundEvent sound2;
-    public static SoundEvent sound3;
-
-    public static void init(){
-        sound1 = new SoundEvent(new ResourceLocation(YuruyuruMod.MODID, "sound1"));
-        sound2 = new SoundEvent(new ResourceLocation(YuruyuruMod.MODID, "sound2"));
-        sound3 = new SoundEvent(new ResourceLocation(YuruyuruMod.MODID, "sound3"));
-    }
+    public static SoundEvent sound1 = new SoundEvent(new ResourceLocation(YuruyuruMod.MODID, "sound1"));
+    public static SoundEvent sound2 = new SoundEvent(new ResourceLocation(YuruyuruMod.MODID, "sound2"));
+    public static SoundEvent sound3 = new SoundEvent(new ResourceLocation(YuruyuruMod.MODID, "sound3"));
 
     public static void register(){
         registerSound(sound1);
