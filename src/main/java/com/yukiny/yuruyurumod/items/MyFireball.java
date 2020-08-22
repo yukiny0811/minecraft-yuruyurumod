@@ -20,7 +20,13 @@ public class MyFireball extends Item {
 
     @Override
     public ActionResult<ItemStack> onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn, EnumHand hand) {
+
+        if(!playerIn.capabilities.isCreativeMode){
+            itemStackIn.stackSize -= 1;
+        }
+
         if(!worldIn.isRemote){
+
             EntityMyFireball entity = new EntityMyFireball(worldIn, playerIn);
 
             float velocity = 1.5f;
@@ -28,7 +34,10 @@ public class MyFireball extends Item {
 
             entity.setHeadingFromThrower(playerIn, playerIn.rotationPitch, playerIn.rotationYaw, 0, velocity, inaccuracy, entity);
             worldIn.spawnEntityInWorld(entity);
+
         }
+
         return new ActionResult<>(EnumActionResult.SUCCESS, itemStackIn);
     }
+
 }

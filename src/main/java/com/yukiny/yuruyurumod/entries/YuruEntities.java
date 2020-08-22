@@ -3,12 +3,11 @@ package com.yukiny.yuruyurumod.entries;
 import com.yukiny.yuruyurumod.YuruyuruMod;
 import com.yukiny.yuruyurumod.entities.*;
 import com.yukiny.yuruyurumod.renders.RenderBull;
+import com.yukiny.yuruyurumod.renders.RenderChasingArrow;
 import com.yukiny.yuruyurumod.renders.RenderExplosiveArrow;
 import com.yukiny.yuruyurumod.renders.RenderTobisuke;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.entity.RenderFireball;
-import net.minecraft.client.renderer.entity.RenderSnowball;
-import net.minecraft.client.renderer.entity.RenderTNTPrimed;
+import net.minecraft.client.renderer.entity.*;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.init.Items;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
@@ -37,6 +36,9 @@ public class YuruEntities {
 
         EntityRegistry.registerModEntity(EntityMyTNTPrimed.class, "my_tnt_primed", EntityMyTNTPrimed.ENTITY_ID, YuruyuruMod.MODID, 50, 1, true);
         RenderingRegistry.registerEntityRenderingHandler(EntityMyTNTPrimed.class, RenderTNTPrimed::new);
+
+        EntityRegistry.registerModEntity(EntityChasingArrow.class, "chasing_arrow", EntityChasingArrow.ENTITY_ID, YuruyuruMod.MODID, 50, 1, true);
+        RenderingRegistry.registerEntityRenderingHandler(EntityChasingArrow.class, RenderChasingArrow::new);
 
     }
 

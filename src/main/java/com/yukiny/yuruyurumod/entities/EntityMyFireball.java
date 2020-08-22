@@ -30,6 +30,6 @@ public class EntityMyFireball extends EntityLargeFireball implements YuruThrowHe
 
     @Override
     protected float getMotionFactor() {
-        return 1f;
+        return 1f; //直前の運動に対する、現在の運動量の倍率。1で等速運動。
     }
 }

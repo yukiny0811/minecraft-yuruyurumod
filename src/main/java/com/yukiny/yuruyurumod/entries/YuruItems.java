@@ -18,6 +18,8 @@ public class YuruItems {
     public static Item mySnowball = new MySnowball();
     public static Item myFireball = new MyFireball();
     public static Item tntThrower = new TNTThrower();
+    public static Item chasingArrow = new ChasingArrow();
+    public static Item lightningSword = new LightningSword();
 
     public static void register(boolean isClient){
         registerItem(magicStick, isClient);
@@ -29,6 +31,8 @@ public class YuruItems {
         registerItem(mySnowball, Items.SNOWBALL, isClient);
         registerItem(myFireball, Items.FIRE_CHARGE, isClient);
         registerItem(tntThrower, Items.TNT_MINECART, isClient);
+        registerItem(chasingArrow, Items.SPECTRAL_ARROW, isClient);
+        registerItem(lightningSword, Items.DIAMOND_SWORD, isClient);
     }
 
     private static void registerItem(Item item, boolean isClient){
