@@ -54,4 +54,5 @@ public class YuruBlocks {
             ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(textureBlock.getRegistryName(), "inventory"));
         }
     }
+
 }
